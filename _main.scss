@@ -1,107 +1,93 @@
-ul.tieRow{
-    display:flex;
-    flex-direction:row;
-    align-items:stretch;
-    list-style-type: none; 
-    background-color: #f4f4f4;  
-    margin:0;
+main{
+
+    .ties{
+            position:relative;
+            
+        ul{
+            display:flex;
+            flex-direction:row;
+            align-items:stretch;
+            list-style-type: none; 
+            background-color: $element-background-color;  
+            margin:0;
     
-}
+            li{
+                margin:0 auto;
+                text-align:center;
+                font-size:$large-text-size;
+        
+                img{
+                    width:106px;
+                    }
+                }
+        }
+    } 
 
-.ties{
-    position:relative;
-
-}
-
-li.tie{
-    margin:0 auto;
-      text-align:center;
-      font-size:1.5em
-}
-
-li tie img{
-    width:106px;
-}
 
 #tagline{
-    background-color: #f4f4f4;
-    font-size:3em;
+    background-color: $element-background-color;
+    font-size:$giant-text-size;
     font-weight:bold;
-    font-family:Tahoma;
     text-align:center;
     padding:50px;
 
+    h1{
+        margin:0;
+        }
 }
 
-h1{
-    margin:0;
-}
 
 
+    .product{
+        position:relative;
+        display:inline-block;
+        width:28%;
+        margin: 0 auto;
+        padding: $minimal-site-padding;
+        border: 20px solid $primary-background-color;
+        text-align:right;
 
-.product{
-    position:relative;
-    display:inline-block;
-    width:28%;
-    margin: 0 auto;
-    padding: 5px;
-    border: 20px solid white;
-}
+            p{
+                position:absolute;
+                top:4px;
+                right:10px;
+                font-size:$large-text-size;
+                font-weight:bold;
+                padding-right: $primary-site-padding;
+                width:20%;
+                
+            }
 
-.product p{
-    position:absolute;
-    top:4px;
-    right:10px;
-    font-size:2em;
-    font-weight:bold;
-    padding-right:10px;
+            img{
+                width: 100%;
+                }
+            }  
 
-}  
 
-#pocket{
-    width:25%;
-    text-align:right;
-}
+    .story{
+        text-align:center;
+        width:100%;
+        margin:0 auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-bottom: 5px solid transparent;
+        border-image: url("https://github.com/TIY-Charlotte-Frontend-Engineering/curriculum/blob/master/daily/04-internet/assets/hatch-light@2x.png?raw=true") 15 0 repeat;
+        border-image-outset: -0.5;
+        width:60%;
 
-.product img{
-    width: 100%;
-}
+        h1{
+            font-size:$large-text-size;
+            font-style:italic;
+            margin:0 auto;
+            }
 
-p #square{
-    position:absolute;
-    top:20px;
-    right: 10px;
+        a{
+            color: $button-background-color;
+            font-size:$large-text-size;
+            text-decoration:none;
+          }
 
-}
-
-.story{
-    text-align:center;
-    width:75%;
-    margin:0 auto;
-    padding: 50px;
-     border-bottom: 5px solid transparent;
-    border-image: url("https://github.com/TIY-Charlotte-Frontend-Engineering/curriculum/blob/master/daily/04-internet/assets/hatch-light@2x.png?raw=true") 15 0 repeat;
-    border-image-outset: -0.5;
-    width:100%
-
-}
-
-.story h1{
-    font-size:2em;
-    font-style:italic;
-    font-weight:normal;
-    width:80%;
-    margin:0 auto;
-}
-
-.story a{
-    color: dodgerblue;
-    font-size:1.7em;
-}
-
-a{
-    text-decoration:none;
-}
+        }
 
 
 .media{
@@ -137,4 +123,5 @@ input[type=email]{
 
 #pick{
     color:blue;
+}
 }

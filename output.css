@@ -38,7 +38,7 @@ header nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 2px solid lightgray;
+    border: 2px solid #f4f4f4;
     color: darkgray; }
     header nav .cart img {
       width: 10%;
@@ -53,121 +53,93 @@ header nav {
   header nav .search {
     margin: 10px; }
   header nav input[type=text] {
-    border: 7px solid lightgray;
+    border: 7px solid #f4f4f4;
     margin-bottom: 10px;
-    color: lightgray;
+    color: #f4f4f4;
     padding: 10px; }
 
-ul.tieRow {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  list-style-type: none;
-  background-color: #f4f4f4;
-  margin: 0; }
-
-.ties {
+main .ties {
   position: relative; }
-
-li.tie {
-  margin: 0 auto;
-  text-align: center;
-  font-size: 1.5em; }
-
-li tie img {
-  width: 106px; }
-
-#tagline {
+  main .ties ul {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    list-style-type: none;
+    background-color: #f4f4f4;
+    margin: 0; }
+    main .ties ul li {
+      margin: 0 auto;
+      text-align: center;
+      font-size: 1.5em; }
+      main .ties ul li img {
+        width: 106px; }
+main #tagline {
   background-color: #f4f4f4;
   font-size: 3em;
   font-weight: bold;
-  font-family: Tahoma;
   text-align: center;
   padding: 50px; }
-
-h1 {
-  margin: 0; }
-
-.product {
+  main #tagline h1 {
+    margin: 0; }
+main .product {
   position: relative;
   display: inline-block;
   width: 28%;
   margin: 0 auto;
   padding: 5px;
-  border: 20px solid white; }
-
-.product p {
-  position: absolute;
-  top: 4px;
-  right: 10px;
-  font-size: 2em;
-  font-weight: bold;
-  padding-right: 10px; }
-
-#pocket {
-  width: 25%;
+  border: 20px solid white;
   text-align: right; }
-
-.product img {
-  width: 100%; }
-
-p #square {
-  position: absolute;
-  top: 20px;
-  right: 10px; }
-
-.story {
+  main .product p {
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-right: 10px;
+    width: 20%; }
+  main .product img {
+    width: 100%; }
+main .story {
   text-align: center;
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   border-bottom: 5px solid transparent;
   border-image: url("https://github.com/TIY-Charlotte-Frontend-Engineering/curriculum/blob/master/daily/04-internet/assets/hatch-light@2x.png?raw=true") 15 0 repeat;
   border-image-outset: -0.5;
-  width: 100%; }
-
-.story h1 {
-  font-size: 2em;
-  font-style: italic;
-  font-weight: normal;
-  width: 80%;
-  margin: 0 auto; }
-
-.story a {
-  color: dodgerblue;
-  font-size: 1.7em; }
-
-a {
-  text-decoration: none; }
-
-.media {
+  width: 60%; }
+  main .story h1 {
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 0 auto; }
+  main .story a {
+    color: dodgerblue;
+    font-size: 1.5em;
+    text-decoration: none; }
+main .media {
   display: inline-block;
   width: 20%;
   margin: 0 auto;
   padding: 5px;
   border: 20px solid white;
   vertical-align: top; }
-
-.media img {
+main .media img {
   width: 100%; }
-
-.logos {
+main .logos {
   display: inline; }
-
-.logos img {
+main .logos img {
   width: 30px; }
-
-input[type=email] {
+main input[type=email] {
   border: 6px solid lightgray;
   margin-bottom: 10px;
   color: lightgray;
   padding: 10px; }
-
-#pick {
+main #pick {
   color: blue; }
 
 .footerInfo {
-  background-color: lightgray; }
+  background-color: #f4f4f4; }
 
 .info {
   display: inline-block;
@@ -214,7 +186,7 @@ ul.info {
   font-weight: normal; }
 
 .footer {
-  background-color: lightgray;
+  background-color: #f4f4f4;
   width: 100%;
   margin: 0 auto; }
 
