@@ -1,11 +1,14 @@
-@import '_variables.scss';
-@import '_header.scss';
-@import '_main.scss';
-@import '_footer.scss';
 
 body{
-    font-family: $site-text-font;
+    font-family: Arial;
 }
+
+@import 'variables';
+@import 'header';
+@import 'main';
+@import 'footer';
+@import 'story';
+
 
 
 

@@ -1,3 +1,6 @@
+body {
+  font-family: Arial; }
+
 header ul.promos {
   display: block;
   width: 100%;
@@ -117,99 +120,98 @@ main .story {
     color: dodgerblue;
     font-size: 1.5em;
     text-decoration: none; }
-main .media {
-  display: inline-block;
-  width: 20%;
-  margin: 0 auto;
-  padding: 5px;
-  border: 20px solid white;
-  vertical-align: top; }
-  main .media img {
-    width: 100%; }
-  main .media .logos {
-    display: inline; }
-    main .media .logos img {
-      width: 30px; }
-  main .media input[type=email] {
-    border: 6px solid darkgray;
-    margin-bottom: 10px;
-    color: darkgray;
-    padding: 10px; }
-  main .media #pick {
-    color: dodgerblue; }
-
-.footerInfo {
-  background-color: #f4f4f4; }
-
-.info {
-  display: inline-block;
-  width: 15%;
-  padding: 10px;
-  vertical-align: top;
-  font-size: 1em; }
-
-ul.info {
-  list-style-type: none;
-  color: darkgray;
-  border: none; }
-
-.weeklyRow {
+main .weeklyRow {
   border-bottom: 5px solid transparent;
   border-image: url("http://skinnyties.com/skin/frontend/skinnyties/skinnyties/img/perforated-bottom.png") 5 0 repeat;
   border-image-outset: -0.5; }
+  main .weeklyRow .media {
+    display: inline-block;
+    width: 20%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 20px solid white;
+    vertical-align: top; }
+    main .weeklyRow .media p {
+      font-size: 1em; }
+    main .weeklyRow .media img {
+      width: 100%; }
+    main .weeklyRow .media .logos {
+      display: inline; }
+      main .weeklyRow .media .logos img {
+        width: 30px; }
+    main .weeklyRow .media input[type=email] {
+      border: 6px solid darkgray;
+      margin-bottom: 10px;
+      color: darkgray;
+      padding: 10px; }
+    main .weeklyRow .media #subscribe {
+      margin: 0;
+      background-color: dodgerblue;
+      color: white; }
+    main .weeklyRow .media #pick {
+      color: dodgerblue; }
 
-.media p {
-  font-size: 1em; }
-
-#subscribe {
-  margin: 0; }
-
-#topic {
-  font-weight: bold; }
-
-.help {
+footer .footerInfo {
+  background-color: #f4f4f4; }
+  footer .footerInfo .info {
+    display: inline-block;
+    width: 15%;
+    padding: 10px;
+    vertical-align: top;
+    font-size: 1em;
+    list-style-type: none;
+    color: darkgray;
+    border: none; }
+    footer .footerInfo .info #topic {
+      font-weight: bold; }
+footer .help {
   display: inline-block;
   width: 20%;
   background-color: darkgray;
   margin-top: 20px;
   padding: 10px;
-  position: relative; }
-
-.contact {
-  border: none;
-  color: white;
-  vertical-align: center; }
-
-.contact h1 {
-  font-style: italic;
-  font-size: 1.5em;
-  font-weight: normal; }
-
-.footer {
+  position: relative;
+  color: white; }
+  footer .help button {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px; }
+  footer .help .contact {
+    border: none;
+    color: white;
+    vertical-align: center; }
+    footer .help .contact h1 {
+      font-style: italic;
+      font-size: 1.5em;
+      font-weight: normal; }
+    footer .help .contact button {
+      position: absolute;
+      bottom: 5px;
+      right: 2px; }
+footer .footer {
   background-color: #f4f4f4;
   width: 100%;
   margin: 0 auto; }
+  footer .footer p {
+    display: inline;
+    color: darkgray;
+    padding: 10px;
+    font-size: 0.7em; }
 
-.footer p {
-  display: inline;
-  color: darkgray;
-  padding: 10px;
-  font-size: 0.7em; }
-
-.help {
-  color: white; }
-
-button {
-  background-color: dodgerblue;
+body .storyHeader {
   color: white;
-  border-radius: 5px; }
-
-.contact button {
-  position: absolute;
-  bottom: 5px;
-  right: 2px; }
-
-body {
-  font-family: Arial; }
+  font-size: 3em;
+  background-color: #f4f4f4; }
+body .storyHeader h1 {
+  margin: 0;
+  padding: 10px; }
+body .text {
+  width: 80%;
+  margin: 0 auto; }
+body .storyHeader p {
+  display: inline-block;
+  width: 35%;
+  vertical-align: top;
+  padding: 10px; }
 
 /*# sourceMappingURL=output.css.map */

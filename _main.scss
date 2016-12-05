@@ -89,6 +89,10 @@ main{
 
         }
 
+.weeklyRow{
+    border-bottom: 5px solid transparent;
+    border-image: url("http://skinnyties.com/skin/frontend/skinnyties/skinnyties/img/perforated-bottom.png") 5 0 repeat;
+    border-image-outset: -0.5;
 
     .media{
         display:inline-block;
@@ -98,6 +102,9 @@ main{
         border: 20px solid $primary-background-color;
         vertical-align:top;
         
+           p{
+            font-size: $normal-text-size;
+            }
 
         img{
             width:100%;
@@ -118,8 +125,15 @@ main{
             padding: $primary-site-padding;
             }
 
+        #subscribe{
+            margin:0;   
+            background-color:$button-background-color;
+            color:$primary-background-color;
+                }
         #pick{
             color: $button-background-color;
             }
+
         }
+    }
 }

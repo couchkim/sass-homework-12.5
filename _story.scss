@@ -1,7 +1,9 @@
+body{
+
 .storyHeader{
-    color:white;
-    font-size:2.5em;
-    background-color:lightgray; 
+    color: $primary-background-color;
+    font-size: $giant-text-size;
+    background-color: $element-background-color; 
 }
 
 .storyHeader h1{
@@ -20,4 +22,5 @@
     width:35%;
     vertical-align:top;
     padding:10px;
+}
 }
