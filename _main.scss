@@ -90,38 +90,36 @@ main{
         }
 
 
-.media{
-    display:inline-block;
-    width:20%;
-    margin: 0 auto;
-    padding: 5px;
-    border: 20px solid white;
-    vertical-align:top;
-}
+    .media{
+        display:inline-block;
+        width:20%;
+        margin: 0 auto;
+        padding: $minimal-site-padding;
+        border: 20px solid $primary-background-color;
+        vertical-align:top;
+        
 
-.media img{
-    width:100%;
+        img{
+            width:100%;
+            }
 
-}
+        .logos{
+            display:inline;
+            
+            img{
+                width:30px;
+                }
+            }
 
-.logos{
-    display:inline;
-}
+        input[type=email]{
+            border:6px solid $alternate-text-color;
+            margin-bottom:10px;
+            color: $alternate-text-color;
+            padding: $primary-site-padding;
+            }
 
-.logos img{
-    width:30px;
-}
-
-input[type=email]{
-    border:6px solid lightgray;
-    margin-bottom:10px;
-    color:lightgray;
-    padding:10px;
-    
-}
-
-
-#pick{
-    color:blue;
-}
+        #pick{
+            color: $button-background-color;
+            }
+        }
 }

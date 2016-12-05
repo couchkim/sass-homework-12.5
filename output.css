@@ -124,19 +124,19 @@ main .media {
   padding: 5px;
   border: 20px solid white;
   vertical-align: top; }
-main .media img {
-  width: 100%; }
-main .logos {
-  display: inline; }
-main .logos img {
-  width: 30px; }
-main input[type=email] {
-  border: 6px solid lightgray;
-  margin-bottom: 10px;
-  color: lightgray;
-  padding: 10px; }
-main #pick {
-  color: blue; }
+  main .media img {
+    width: 100%; }
+  main .media .logos {
+    display: inline; }
+    main .media .logos img {
+      width: 30px; }
+  main .media input[type=email] {
+    border: 6px solid darkgray;
+    margin-bottom: 10px;
+    color: darkgray;
+    padding: 10px; }
+  main .media #pick {
+    color: dodgerblue; }
 
 .footerInfo {
   background-color: #f4f4f4; }
