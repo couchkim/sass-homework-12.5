@@ -1,0 +1,140 @@
+ul.tieRow{
+    display:flex;
+    flex-direction:row;
+    align-items:stretch;
+    list-style-type: none; 
+    background-color: #f4f4f4;  
+    margin:0;
+    
+}
+
+.ties{
+    position:relative;
+
+}
+
+li.tie{
+    margin:0 auto;
+      text-align:center;
+      font-size:1.5em
+}
+
+li tie img{
+    width:106px;
+}
+
+#tagline{
+    background-color: #f4f4f4;
+    font-size:3em;
+    font-weight:bold;
+    font-family:Tahoma;
+    text-align:center;
+    padding:50px;
+
+}
+
+h1{
+    margin:0;
+}
+
+
+
+.product{
+    position:relative;
+    display:inline-block;
+    width:28%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 20px solid white;
+}
+
+.product p{
+    position:absolute;
+    top:4px;
+    right:10px;
+    font-size:2em;
+    font-weight:bold;
+    padding-right:10px;
+
+}  
+
+#pocket{
+    width:25%;
+    text-align:right;
+}
+
+.product img{
+    width: 100%;
+}
+
+p #square{
+    position:absolute;
+    top:20px;
+    right: 10px;
+
+}
+
+.story{
+    text-align:center;
+    width:75%;
+    margin:0 auto;
+    padding: 50px;
+     border-bottom: 5px solid transparent;
+    border-image: url("https://github.com/TIY-Charlotte-Frontend-Engineering/curriculum/blob/master/daily/04-internet/assets/hatch-light@2x.png?raw=true") 15 0 repeat;
+    border-image-outset: -0.5;
+    width:100%
+
+}
+
+.story h1{
+    font-size:2em;
+    font-style:italic;
+    font-weight:normal;
+    width:80%;
+    margin:0 auto;
+}
+
+.story a{
+    color: dodgerblue;
+    font-size:1.7em;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+.media{
+    display:inline-block;
+    width:20%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 20px solid white;
+    vertical-align:top;
+}
+
+.media img{
+    width:100%;
+
+}
+
+.logos{
+    display:inline;
+}
+
+.logos img{
+    width:30px;
+}
+
+input[type=email]{
+    border:6px solid lightgray;
+    margin-bottom:10px;
+    color:lightgray;
+    padding:10px;
+    
+}
+
+
+#pick{
+    color:blue;
+}

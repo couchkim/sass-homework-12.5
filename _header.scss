@@ -20,71 +20,70 @@ header{
             padding: $minimal-site-padding;
              font-size: $normal-text-size; 
             }
-    }
+      }
     
 
+    nav{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        background-color: $primary-background-color;
+        position:relative;
+        border-bottom: 5px solid transparent;
+        border-image: url("http://skinnyties.com/skin/frontend/skinnyties/skinnyties/img/perforated-bottom.png") 5 0 repeat;
+        border-image-outset: -0.5;
 
+        #logo{
+            width:265px;  
+        }
 
+        ul{
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+            list-style-type: none;  
+            margin-right:50px; 
 
-nav{
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    background-color: $primary-background-color;
-    position:relative;
-    border-bottom: 5px solid transparent;
-    border-image: url("http://skinnyties.com/skin/frontend/skinnyties/skinnyties/img/perforated-bottom.png") 5 0 repeat;
-    border-image-outset: -0.5;
-}
+                li{
+                   font-size: $giant-text-size;
+                    padding:15px;   
+                    }
+            }
 
-#logo{
-    width:265px;
-    
-}
-ul.categories{
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    list-style-type: none;  
-    margin-right:50px; 
-}
+        .cart{
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+            border:2px solid $element-background-color;
+            color: $alternate-text-color;
 
-li.links{
-    font-size: $giant-text-size;
-    padding:15px;   
-}
+                img{
+                    width:10%;
+                    padding: $minimal-site-padding;
+                    }
+                }
+            
+            .sign{
+                text-align:right;
+                
 
-.cart{
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    border:2px solid $element-background-color;
-    color: $alternate-text-color;
-}
+                p{
+                    display:inline;
+                    color: $alternate-text-color;
+                    font-size: $normal-text-size;
+                    padding: $minimal-site-padding;
+                }
+            }
+       
+             .search{
+                margin:10px
+             }
 
-.cart img{
-    width:10%;
-    padding: $minimal-site-padding;
-}
-
-.sign{
-    text-align:right;
-}
-
-.sign p{
-display:inline;
-color: $alternate-text-color;
-font-size: $normal-text-size;
-padding: $minimal-site-padding;
-}
-.search{
-    margin:10px
-}
-
-input[type=text]{
-    border:7px solid $element-background-color;
-    margin-bottom:10px;
-    color:$element-background-color;
-    padding: $primary-site-padding;
-}
+                    input[type=text]{
+                    border:7px solid $element-background-color;
+                    margin-bottom:10px;
+                    color:$element-background-color;
+                    padding: $primary-site-padding;
+                    }
+        }
 }

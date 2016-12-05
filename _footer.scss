@@ -1,0 +1,98 @@
+.footerInfo{
+    background-color: $element-background-color;
+}
+
+.info{
+    display:inline-block;
+    width:15%;
+    padding: $primary-site-padding;
+    vertical-align:top;
+    font-size: $normal-text-size
+}
+
+ul.info{
+    list-style-type:none;
+    color: $alternate-text-color;
+    border:none;
+}
+
+.weeklyRow{
+    border-bottom: 5px solid transparent;
+    border-image: url("http://skinnyties.com/skin/frontend/skinnyties/skinnyties/img/perforated-bottom.png") 5 0 repeat;
+    border-image-outset: -0.5;
+}
+
+.media p{
+    font-size: $normal-text-size;
+}
+
+#subscribe{
+    margin:0;
+}
+
+
+
+#topic{
+    font-weight:bold;
+}
+
+.help{
+    display:inline-block;
+    width:20%;
+    background-color: $alternate-text-color;
+    margin-top:20px;
+    padding:$primary-site-padding;
+    position:relative;
+
+}
+
+.contact{
+    border:none;
+    color: $primary-background-color;
+    vertical-align:center;
+    
+
+}
+
+.contact h1{
+    font-style:italic;
+    font-size: $large-text-size;
+    font-weight:normal;
+}
+
+
+
+.footer{
+    background-color: $element-background-color;
+    width:100%;
+    margin:0 auto;
+
+}
+
+.footer p{
+    display:inline;
+    color: $alternate-text-color;
+    padding:$primary-site-padding;
+    font-size: $footer-text-size;
+    
+}
+
+.help{
+    color: $primary-background-color;
+}
+
+button{
+    background-color: $button-background-color;
+    color: $primary-background-color;
+    border-radius:5px;
+}
+
+.contact button{
+    position:absolute;
+    bottom:5px;
+    right:2px;
+}
+
+
+
+
